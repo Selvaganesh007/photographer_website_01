@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing : border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar {
+    background-color: hsla(0, 0%, 100%, 0.89) !important;
+}
+.navbar-brand{
+    font-size: 40px !important;
+}
+.nav-item {
+    margin : 0 5px;
+    padding: 0 10px;
+}
+
+#navbar-inverse .navbar-nav>li>a {
+    color: #ff0180;
+}
+.navbar-nav>li>a:active,
+.navbar-nav>li>a:focus {
+    color           : #251b1b;
+    background-color: red;
+}
+.navbar-nav>li>a:hover{
+    color: white;
+    background-color: red;
+}
+/* ....brand name....  */
+.k{
+    color: #ff0180;
+    font-size: 45px;
+}
+
+
+/* about  */
+#about{
+    background-color: #201f1f;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#about .imgg{
+    width: 100% !important;
+    padding: 25px 18px;
+    margin: 30px 22px;
+    align-items: center !important;
+    box-sizing: border-box;
+}
+.abtwo{
+    color: white !important;
+    padding: 20px;
+    margin: 20px !important;
+}
+.abtwo p{
+    font-size:small;
+    text-align: justify !important;
+}
+.s{
+    color: #ff0180;  
+}
+
+/* service  */
+#service{
+    padding: 30px !important;
+    margin: 0 !important;
+    background-color: #000000 !important;
+    color: white;
+}
+#service .btn{
+    background-color: #ff0180 !important;
+}
+#service h3{
+    color: white;
+    padding: 10px 20px;
+}
+#service .box{
+    background-color: #000000;
+    /* margin: 20px !important; */
+}
+.card{
+    background-color: #000000 !important;
+    overflow: hidden;
+    padding: 10px 20px ;
+}
+.card:hover{
+    box-shadow: 15px 20px 20px #ff00004d,
+    inset 4px 4px 10px #bdff07;
+    transition: .2s;
+}
+.card-title{
+    font-size: medium;
+    font-weight: 500;
+}
+.card-text{
+    font-size:medium;
+    font-weight: 300;
+    color: #ffffff6c;
+}
+
+/* blog  */
+#blog{
+    background-color: #201f1f;
+    color: white;
+}
+.tit{
+    font-size: small !important;
+    font-weight: 500 !important;
+}
+#blog p{
+    font-size: small;
+    color: hsl(0, 6%, 28%);
+}
+#blog .own{
+    /* max-width: 250px; */
+    align-items: center;
+}
+ul{
+    list-style:none;
+}
+ul li{
+    color: #ff0180;
+    font-size: small;
+}
+.seconddiv{
+    padding: 50px 0;
+    margin: 0;
+}
+.owo{
+    padding: 12px 0 0 0;
+}
+
+
+
+/* footer  */
+#footer{
+    background-color: white;
+    padding-top: 5px !important;
+}
+/* #footer .container{
+    padding: 0px;
+    margin: 25px; 
+} */
+.fab{
+    color: #ff0180;
+}
